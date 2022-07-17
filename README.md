@@ -2,6 +2,9 @@
 
 Simple node.js bakend project.
 
+## Local run:
+* Run `npm install` or `yarn install`
+* Run `nodemon` or `npm start`
 
 ## Packages
 
@@ -17,12 +20,12 @@ Use a middleware to print simple text in **console**.
 These endpoints allow you to handle Stripe subscriptions for Publish and Analyze.
 
 ### GET
-`Get cars` [https://simple-node-express.joselbracho.work/api/cars]
-`Get car by :id` [https://simple-node-express.joselbracho.work/api/cars/1]
+`Get cars` [https://simple-node-express.joselbracho.work/api/cars/]
+`Get car by :id` [https://simple-node-express.joselbracho.work/api/cars/1/]
 
 ### POST
-`Add cart` [https://simple-node-express.joselbracho.work/api/cars/1]
+`Add cart` [https://simple-node-express.joselbracho.work/api/cars/1/]
 
 ## Live demo
 
-Live demo in [simple-node-express.joselbracho.work](https://simple-node-express.joselbracho.work/). - Jose Luis Bracho Escobar
+Live demo in [simple-node-express.joselbracho.work](https://simple-node-express.joselbracho.work/api/cars/). - Jose Luis Bracho Escobar
