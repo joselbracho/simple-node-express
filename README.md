@@ -17,7 +17,7 @@ Use a middleware to print simple text in **console**.
 
 ## API endpoints
 
-These endpoints allow you to handle Stripe subscriptions for Publish and Analyze.
+Available endpoints:
 
 ### GET
 `Get cars` [https://simple-node-express.joselbracho.work/api/cars/]
