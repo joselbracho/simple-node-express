@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const CORS = require('cors');
 
 const app = express();
+var os = require('os');
 
 app.use(bodyParser.json());
 app.use(CORS());
@@ -58,6 +59,12 @@ const cars = [
 	},
 ];
 
+// Show in console car ID param
+app.use('/api/cars/:id', (req, res, next) => {
+  console.log('Getting info from car ID:', req.params.id)
+  next()
+})
+
 app.get('/api/cars', (req, res) => {
 	res.send(cars);
 });
@@ -72,6 +79,6 @@ app.post('/api/cars', (req, res) => {
 	res.status(201).json(cars);
 });
 
-app.listen(5001, () => {
+app.listen(5001, () =>			 {
 	console.log('Server listening on port 5001');
 });
