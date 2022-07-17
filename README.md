@@ -21,6 +21,7 @@ Available endpoints:
 
 ### GET
 `Get cars` [https://simple-node-express.joselbracho.work/api/cars/]
+
 `Get car by :id` [https://simple-node-express.joselbracho.work/api/cars/1/]
 
 ### POST
